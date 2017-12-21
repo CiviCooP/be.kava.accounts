@@ -5,6 +5,14 @@ require_once 'kavaaccounts.civix.php';
 
 /* -- Custom hook implementations -- */
 
+/**
+ * Adds a link to the extension form to the contact summary.
+ * Implements hook_civicrm_pageRun().
+ * @link https://docs.civicrm.org/dev/en/stable/hooks/hook_civicrm_pageRun/
+ */
+function kavaaccounts_civicrm_pageRun(&$page) {
+  CRM_KavaAccounts_Utils::addLinkToPage($page);
+}
 
 
 /* -- Default Civix hooks follow -- */

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/kava/account/create</path>
+    <page_callback>CRM_KavaAccounts_Form_AccountCreate</page_callback>
+    <title>Account aanmaken</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
