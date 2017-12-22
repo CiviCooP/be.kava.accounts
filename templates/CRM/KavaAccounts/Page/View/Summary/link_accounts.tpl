@@ -9,7 +9,7 @@
 <script type="text/javascript">
   {literal}
   cj(function() {
-      cj('.crm-contact-actions-list-inner li.crm-contact-user-record').replaceWith('{/literal}{$kava_link_accounts}{literal}');
+      cj('.crm-contact-actions-list-inner li.crm-contact-user-record, .crm-contact-actions-list-inner li.crm-contact-crm-contact-user-add').replaceWith('{/literal}{$kava_link_accounts}{literal}');
   });
   {/literal}
 </script>
