@@ -39,7 +39,7 @@ class CRM_KavaAccounts_Utils {
         'contact_id' => $contact_id,
       ]);
 
-      if (!$data['is_error'] && $data['result'] == 0) {
+      if (!isset($data['is_error']) && $data === 0) {
         return FALSE;
       }
 
